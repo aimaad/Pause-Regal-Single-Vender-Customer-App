@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>690020680586-3n4rg58kv8fubrsc9hvssl7vhm6opjhs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.690020680586-3n4rg58kv8fubrsc9hvssl7vhm6opjhs</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>690020680586-2akm4ddvavajokc8eadabupl3rkal30d.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>PLACE_YOUR_IOS_KEY_HERE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>690020680586</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.wrteam.erestroSingleVender</string>
+	<key>PROJECT_ID</key>
+	<string>erestro-single-vender</string>
+	<key>STORAGE_BUCKET</key>
+	<string>erestro-single-vender.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:690020680586:ios:2b674c94fc7f28495abe73</string>
+</dict>
+</plist>

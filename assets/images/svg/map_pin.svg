@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="restaurant" transform="translate(-76 -348)">
+    <rect id="Rectangle_18125" data-name="Rectangle 18125" width="34" height="34" rx="17" transform="translate(76 348)" fill="#1c7d88"/>
+    <rect id="Rectangle_18124" data-name="Rectangle 18124" width="24" height="24" transform="translate(81 353)" fill="none"/>
+    <path id="icon" d="M162.813-862v-8.28a3.585,3.585,0,0,1-1.991-1.181A3.275,3.275,0,0,1,160-873.7V-880h1.35v6.3h1.462V-880h1.35v6.3h1.462V-880h1.35v6.3a3.275,3.275,0,0,1-.821,2.239,3.585,3.585,0,0,1-1.991,1.181V-862Zm9.338,0v-7.2h-2.588v-6.863a3.863,3.863,0,0,1,1.08-2.857A3.862,3.862,0,0,1,173.5-880v18Z" transform="translate(-74.213 1236)" fill="#fff"/>
+  </g>
+</svg>

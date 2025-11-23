@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="mic-line" transform="translate(-872 -1195)">
+    <rect id="Rectangle_253" data-name="Rectangle 253" width="24" height="24" transform="translate(872 1195)" fill="none"/>
+    <path id="Path_645" data-name="Path 645" d="M12.813,3.182A3.273,3.273,0,0,0,9.54,6.455v4.364a3.273,3.273,0,0,0,6.545,0V6.455A3.273,3.273,0,0,0,12.813,3.182Zm0-2.182a5.455,5.455,0,0,1,5.455,5.455v4.364a5.455,5.455,0,0,1-10.909,0V6.455A5.455,5.455,0,0,1,12.813,1ZM3.055,11.909h2.2a7.638,7.638,0,0,0,15.118,0h2.2A9.822,9.822,0,0,1,13.9,20.576V25H11.722V20.576A9.822,9.822,0,0,1,3.055,11.909Z" transform="translate(871.187 1194)" fill="#002f35"/>
+  </g>
+</svg>

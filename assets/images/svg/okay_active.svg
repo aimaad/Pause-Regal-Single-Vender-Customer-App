@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="okay_active" transform="translate(0.941 0.677)">
+    <rect id="Rectangle_18078" data-name="Rectangle 18078" width="50" height="50" rx="25" transform="translate(-0.941 -0.677)" fill="#ffd48b"/>
+    <path id="Path_16511" data-name="Path 16511" d="M99.837,133.478a2.478,2.478,0,1,0-2.478,2.478,2.478,2.478,0,0,0,2.478-2.478" transform="translate(-79.466 -112.141)" fill="#515151"/>
+    <path id="Path_16512" data-name="Path 16512" d="M255.256,133.925a2.478,2.478,0,1,0-2.478,2.478,2.478,2.478,0,0,0,2.478-2.478" transform="translate(-221.197 -112.549)" fill="#515151"/>
+    <path id="Path_16513" data-name="Path 16513" d="M128.951,281.987H115.295a.842.842,0,0,1,0-1.676h13.657a.842.842,0,0,1,0,1.676" transform="translate(-97.387 -248.303)" fill="#515151"/>
+    <path id="Path_16514" data-name="Path 16514" d="M87.559,98.267h-6.1a.67.67,0,1,1,0-1.341h6.1a.67.67,0,1,1,0,1.341" transform="translate(-66.617 -81.068)" fill="#515151"/>
+    <path id="Path_16515" data-name="Path 16515" d="M242.977,98.267h-6.1a.67.67,0,1,1,0-1.341h6.1a.67.67,0,1,1,0,1.341" transform="translate(-208.348 -81.068)" fill="#515151"/>
+  </g>
+</svg>

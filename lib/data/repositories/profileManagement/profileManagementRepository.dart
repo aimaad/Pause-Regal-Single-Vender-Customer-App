@@ -1,0 +1,63 @@
+import 'package:erestroSingleVender/data/localDataStore/profileManagementLocalDataSource.dart';
+import 'package:erestroSingleVender/data/repositories/profileManagement/profileManagementRemoteDataSource.dart';
+import 'dart:io';
+
+import 'package:erestroSingleVender/utils/apiMessageAndCodeException.dart';
+
+class ProfileManagementRepository {
+  static final ProfileManagementRepository _profileManagementRepository =
+      ProfileManagementRepository._internal();
+  late ProfileManagementLocalDataSource _profileManagementLocalDataSource;
+  late ProfileManagementRemoteDataSource _profileManagementRemoteDataSource;
+
+  factory ProfileManagementRepository() {
+    _profileManagementRepository._profileManagementLocalDataSource =
+        ProfileManagementLocalDataSource();
+    _profileManagementRepository._profileManagementRemoteDataSource =
+        ProfileManagementRemoteDataSource();
+
+    return _profileManagementRepository;
+  }
+
+  ProfileManagementRepository._internal();
+
+  ProfileManagementLocalDataSource get profileManagementLocalDataSource =>
+      _profileManagementLocalDataSource;
+
+  Future<String> uploadProfilePicture(File? file) async {
+    try {
+      final result =
+          await _profileManagementRemoteDataSource.addProfileImage(file);
+      return result['image'].toString();
+    } on ApiMessageAndCodeException catch (e) {
+      ApiMessageAndCodeException apiMessageAndCodeException = e;
+      throw ApiMessageAndCodeException(
+          errorMessage: apiMessageAndCodeException.errorMessage.toString(),
+          errorStatusCode:
+              apiMessageAndCodeException.errorStatusCode.toString());
+    } catch (e) {
+      throw ApiMessageAndCodeException(errorMessage: e.toString());
+    }
+  }
+
+  //update profile method in remote data source
+  Future<void> updateProfile(
+      {String? email,
+      String? name,
+      String? mobile,
+      String? referralCode}) async {
+    try {
+      await _profileManagementRemoteDataSource.updateProfile(
+          email: email, name: name, mobile: mobile, referralCode: referralCode);
+    } on ApiMessageAndCodeException catch (e) {
+      ApiMessageAndCodeException apiMessageAndCodeException = e;
+      throw ApiMessageAndCodeException(
+          errorMessage: apiMessageAndCodeException.errorMessage.toString(),
+          errorStatusCode:
+              apiMessageAndCodeException.errorStatusCode.toString());
+    } catch (e) {
+      print(e.toString());
+      throw ApiMessageAndCodeException(errorMessage: e.toString());
+    }
+  }
+}
