@@ -115,7 +115,7 @@ android/app/src/main/AndroidManifest.xml
 
 For iOS
 
-In ios/Runner/AppDelegate.swift or AppDelegate.m (depending on project):
+In ios/Runner/AppDelegate.swift :
 
 GMSServices.provideAPIKey("YOUR_IOS_MAPS_API_KEY")
 
